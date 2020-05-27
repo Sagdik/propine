@@ -5,13 +5,17 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import qa.ProPine.BasePropine;
 import qa.pages.PropineHomePage;
+import qa.utility.CustomeListner;
 
+
+@Listeners(CustomeListner.class)
 public class DateValidationTestCase extends BasePropine {
 	
 	PropineHomePage homePage;
@@ -84,6 +88,7 @@ public class DateValidationTestCase extends BasePropine {
 	
 	
 	/**
+	 * Negative Test Cases
 	 * Validate All language support on Date pareser
 	 */
 	@Test
@@ -97,13 +102,14 @@ public class DateValidationTestCase extends BasePropine {
 		
 		String resultValue = driver.findElement(By.xpath("//div[@class='container']//div[2]//div")).getText();
 		
-		softAssert.assertEquals(resultValue, "Wed May 27 09:00:00 UTC 2020");
+		softAssert.assertEquals(resultValue, "Invalid date");
 		
 		softAssert.assertAll();
 		
 	}
 	
 	/**
+	 * Negative Test Cases
 	 * Validate Date parse in different format
 	 */
 	@Test

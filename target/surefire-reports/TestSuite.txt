@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 44.732 s <<< FAILURE! - in TestSuite
-valdiateLanguageSupportDateParser(Suit1.DateValidationTestCase)  Time elapsed: 0.967 s  <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 86.248 s <<< FAILURE! - in TestSuite
+valdiateLanguageSupportDateParser(Suit1.DateValidationTestCase)  Time elapsed: 1.054 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	expected [Wed May 27 09:00:00 UTC 2020] but found [Invalid date]
-	at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:102)
+	at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:106)
 

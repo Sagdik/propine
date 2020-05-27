@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="1" ignored="0" total="4" passed="1">
+<testng-results skipped="2" failed="1" ignored="0" total="7" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="42738" started-at="2020-05-27T06:59:12Z" finished-at="2020-05-27T06:59:55Z">
+  <suite name="Suite" duration-ms="84340" started-at="2020-05-27T07:03:40Z" finished-at="2020-05-27T07:05:05Z">
     <groups>
     </groups>
-    <test name="PropineTest" duration-ms="42738" started-at="2020-05-27T06:59:12Z" finished-at="2020-05-27T06:59:55Z">
+    <test name="PropineTest" duration-ms="84340" started-at="2020-05-27T07:03:40Z" finished-at="2020-05-27T07:05:05Z">
       <class name="Suit1.DateValidationTestCase">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suit1.DateValidationTestCase@1877ab81]" name="openBrowser" is-config="true" duration-ms="9541" started-at="2020-05-27T06:59:12Z" finished-at="2020-05-27T06:59:22Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="openBrowser" is-config="true" duration-ms="10288" started-at="2020-05-27T07:03:40Z" finished-at="2020-05-27T07:03:51Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="valdiateLanguageSupportDateParser()[pri:0, instance:Suit1.DateValidationTestCase@1877ab81]" name="valdiateLanguageSupportDateParser" duration-ms="1225" started-at="2020-05-27T06:59:22Z" finished-at="2020-05-27T06:59:23Z">
+        <test-method status="SKIP" signature="valdiateLanguageSupportDateParser()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="valdiateLanguageSupportDateParser" duration-ms="950" started-at="2020-05-27T07:03:51Z" finished-at="2020-05-27T07:03:52Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -28,7 +28,7 @@ expected [Wed May 27 09:00:00 UTC 2020] but found [Invalid date]]]>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
 expected [Wed May 27 09:00:00 UTC 2020] but found [Invalid date]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:102)
+at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:106)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -64,11 +64,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valdiateLanguageSupportDateParser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Suit1.DateValidationTestCase@1877ab81]" name="closeBrowser" is-config="true" duration-ms="748" started-at="2020-05-27T06:59:23Z" finished-at="2020-05-27T06:59:24Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="closeBrowser" is-config="true" duration-ms="740" started-at="2020-05-27T07:03:52Z" finished-at="2020-05-27T07:03:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suit1.DateValidationTestCase@1877ab81]" name="openBrowser" is-config="true" duration-ms="7224" started-at="2020-05-27T06:59:24Z" finished-at="2020-05-27T06:59:31Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="openBrowser" is-config="true" duration-ms="13386" started-at="2020-05-27T07:03:52Z" finished-at="2020-05-27T07:04:06Z">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="SKIP" signature="valdiateLanguageSupportDateParser()[pri:0, instance:Suit1.DateValidationTestCase@1877ab81]" name="valdiateLanguageSupportDateParser" duration-ms="949" started-at="2020-05-27T06:59:31Z" finished-at="2020-05-27T06:59:32Z">
+        <test-method status="SKIP" signature="valdiateLanguageSupportDateParser()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="valdiateLanguageSupportDateParser" duration-ms="997" started-at="2020-05-27T07:04:06Z" finished-at="2020-05-27T07:04:07Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -89,7 +89,7 @@ expected [Wed May 27 09:00:00 UTC 2020] but found [Invalid date]]]>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
 expected [Wed May 27 09:00:00 UTC 2020] but found [Invalid date]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:102)
+at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:106)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -125,11 +125,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valdiateLanguageSupportDateParser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Suit1.DateValidationTestCase@1877ab81]" name="closeBrowser" is-config="true" duration-ms="674" started-at="2020-05-27T06:59:32Z" finished-at="2020-05-27T06:59:33Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="closeBrowser" is-config="true" duration-ms="763" started-at="2020-05-27T07:04:07Z" finished-at="2020-05-27T07:04:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suit1.DateValidationTestCase@1877ab81]" name="openBrowser" is-config="true" duration-ms="7206" started-at="2020-05-27T06:59:33Z" finished-at="2020-05-27T06:59:40Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="openBrowser" is-config="true" duration-ms="11382" started-at="2020-05-27T07:04:07Z" finished-at="2020-05-27T07:04:19Z">
           <params>
             <param index="0">
               <value>
@@ -140,7 +140,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="valdiateLanguageSupportDateParser()[pri:0, instance:Suit1.DateValidationTestCase@1877ab81]" name="valdiateLanguageSupportDateParser" duration-ms="959" started-at="2020-05-27T06:59:40Z" finished-at="2020-05-27T06:59:41Z">
+        <test-method status="FAIL" signature="valdiateLanguageSupportDateParser()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="valdiateLanguageSupportDateParser" duration-ms="1045" started-at="2020-05-27T07:04:19Z" finished-at="2020-05-27T07:04:20Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -150,7 +150,7 @@ expected [Wed May 27 09:00:00 UTC 2020] but found [Invalid date]]]>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
 expected [Wed May 27 09:00:00 UTC 2020] but found [Invalid date]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:102)
+at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:106)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -186,11 +186,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valdiateLanguageSupportDateParser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Suit1.DateValidationTestCase@1877ab81]" name="closeBrowser" is-config="true" duration-ms="715" started-at="2020-05-27T06:59:41Z" finished-at="2020-05-27T06:59:42Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="closeBrowser" is-config="true" duration-ms="728" started-at="2020-05-27T07:04:20Z" finished-at="2020-05-27T07:04:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suit1.DateValidationTestCase@1877ab81]" name="openBrowser" is-config="true" duration-ms="11814" started-at="2020-05-27T06:59:42Z" finished-at="2020-05-27T06:59:54Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="openBrowser" is-config="true" duration-ms="9849" started-at="2020-05-27T07:04:21Z" finished-at="2020-05-27T07:04:30Z">
           <params>
             <param index="0">
               <value>
@@ -201,11 +201,68 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="validateDateParseFormat()[pri:0, instance:Suit1.DateValidationTestCase@1877ab81]" name="validateDateParseFormat" duration-ms="953" started-at="2020-05-27T06:59:54Z" finished-at="2020-05-27T06:59:54Z">
+        <test-method status="PASS" signature="validateAllMandatoryFields()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="validateAllMandatoryFields" duration-ms="1001" started-at="2020-05-27T07:04:30Z" finished-at="2020-05-27T07:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllMandatoryFields -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="closeBrowser" is-config="true" duration-ms="1133" started-at="2020-05-27T07:04:32Z" finished-at="2020-05-27T07:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="openBrowser" is-config="true" duration-ms="9480" started-at="2020-05-27T07:04:33Z" finished-at="2020-05-27T07:04:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://vast-dawn-73245.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validateDateParseFormat()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="validateDateParseFormat" duration-ms="1100" started-at="2020-05-27T07:04:42Z" finished-at="2020-05-27T07:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateDateParseFormat -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Suit1.DateValidationTestCase@1877ab81]" name="closeBrowser" is-config="true" duration-ms="689" started-at="2020-05-27T06:59:54Z" finished-at="2020-05-27T06:59:55Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="closeBrowser" is-config="true" duration-ms="723" started-at="2020-05-27T07:04:43Z" finished-at="2020-05-27T07:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="openBrowser" is-config="true" duration-ms="11238" started-at="2020-05-27T07:04:44Z" finished-at="2020-05-27T07:04:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://vast-dawn-73245.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validatePageHeadline()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="validatePageHeadline" duration-ms="51" started-at="2020-05-27T07:04:55Z" finished-at="2020-05-27T07:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageHeadline -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="closeBrowser" is-config="true" duration-ms="904" started-at="2020-05-27T07:04:55Z" finished-at="2020-05-27T07:04:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="openBrowser" is-config="true" duration-ms="7667" started-at="2020-05-27T07:04:56Z" finished-at="2020-05-27T07:05:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://vast-dawn-73245.herokuapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validatePageTitle()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="validatePageTitle" duration-ms="77" started-at="2020-05-27T07:05:04Z" finished-at="2020-05-27T07:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Suit1.DateValidationTestCase@305fd85d]" name="closeBrowser" is-config="true" duration-ms="799" started-at="2020-05-27T07:05:04Z" finished-at="2020-05-27T07:05:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

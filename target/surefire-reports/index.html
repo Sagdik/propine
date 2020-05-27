@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,  2 skipped,  1 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,  2 skipped,  4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -135,7 +135,22 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suit1.DateValidationTestCase" hash-for-method="validateAllMandatoryFields">validateAllMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suit1.DateValidationTestCase" hash-for-method="validateDateParseFormat">validateDateParseFormat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suit1.DateValidationTestCase" hash-for-method="validatePageHeadline">validatePageHeadline</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suit1.DateValidationTestCase" hash-for-method="validatePageTitle">validatePageTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -163,7 +178,7 @@
                   <span class="method-name">valdiateLanguageSupportDateParser</span>
                   <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
 	expected [Wed May 27 09:00:00 UTC 2020] but found [Invalid date]
-	at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:102)
+	at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:106)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -183,7 +198,7 @@
                   <span class="method-name">valdiateLanguageSupportDateParser</span>
                   <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
 	expected [Wed May 27 09:00:00 UTC 2020] but found [Invalid date]
-	at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:102)
+	at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:106)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -195,7 +210,7 @@
                   <span class="method-name">valdiateLanguageSupportDateParser</span>
                   <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
 	expected [Wed May 27 09:00:00 UTC 2020] but found [Invalid date]
-	at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:102)
+	at Suit1.DateValidationTestCase.valdiateLanguageSupportDateParser(DateValidationTestCase.java:106)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -210,9 +225,30 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="validateAllMandatoryFields">
+                  </a> <!-- validateAllMandatoryFields -->
+                  <span class="method-name">validateAllMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="validateDateParseFormat">
                   </a> <!-- validateDateParseFormat -->
                   <span class="method-name">validateDateParseFormat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePageHeadline">
+                  </a> <!-- validatePageHeadline -->
+                  <span class="method-name">validatePageHeadline</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePageTitle">
+                  </a> <!-- validatePageTitle -->
+                  <span class="method-name">validatePageTitle</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -274,28 +310,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'valdiateLanguageSupportDateParser')
+data.setCell(0, 1, 'validateDateParseFormat')
 data.setCell(0, 2, 'Suit1.DateValidationTestCase')
-data.setCell(0, 3, 1225);
+data.setCell(0, 3, 1100);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'valdiateLanguageSupportDateParser')
 data.setCell(1, 2, 'Suit1.DateValidationTestCase')
-data.setCell(1, 3, 959);
+data.setCell(1, 3, 1045);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateDateParseFormat')
+data.setCell(2, 1, 'validateAllMandatoryFields')
 data.setCell(2, 2, 'Suit1.DateValidationTestCase')
-data.setCell(2, 3, 953);
+data.setCell(2, 3, 1001);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'valdiateLanguageSupportDateParser')
 data.setCell(3, 2, 'Suit1.DateValidationTestCase')
-data.setCell(3, 3, 949);
+data.setCell(3, 3, 997);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'valdiateLanguageSupportDateParser')
+data.setCell(4, 2, 'Suit1.DateValidationTestCase')
+data.setCell(4, 3, 950);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validatePageTitle')
+data.setCell(5, 2, 'Suit1.DateValidationTestCase')
+data.setCell(5, 3, 77);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validatePageHeadline')
+data.setCell(6, 2, 'Suit1.DateValidationTestCase')
+data.setCell(6, 3, 51);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -328,49 +376,85 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">valdiateLanguageSupportDateParser</span>
-                <span class="method-start">9541 ms</span>
+                <span class="method-start">10288 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">10768 ms</span>
+                <span class="method-start">11239 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser(https://vast-dawn-73245.herokuapp.com/)</span>
-                <span class="method-start">11517 ms</span>
+                <span class="method-start">11979 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">valdiateLanguageSupportDateParser</span>
-                <span class="method-start">18741 ms</span>
+                <span class="method-start">25365 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">19691 ms</span>
+                <span class="method-start">26362 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser(https://vast-dawn-73245.herokuapp.com/)</span>
-                <span class="method-start">20365 ms</span>
+                <span class="method-start">27125 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">valdiateLanguageSupportDateParser</span>
-                <span class="method-start">27571 ms</span>
+                <span class="method-start">38507 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">28537 ms</span>
+                <span class="method-start">39560 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser(https://vast-dawn-73245.herokuapp.com/)</span>
-                <span class="method-start">29252 ms</span>
+                <span class="method-start">40288 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validateDateParseFormat</span>
-                <span class="method-start">41066 ms</span>
+                <span class="method-name">validateAllMandatoryFields</span>
+                <span class="method-start">50137 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">42020 ms</span>
+                <span class="method-start">51138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(https://vast-dawn-73245.herokuapp.com/)</span>
+                <span class="method-start">52271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateDateParseFormat</span>
+                <span class="method-start">61751 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">62851 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(https://vast-dawn-73245.herokuapp.com/)</span>
+                <span class="method-start">63574 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePageHeadline</span>
+                <span class="method-start">74812 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">74863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser(https://vast-dawn-73245.herokuapp.com/)</span>
+                <span class="method-start">75767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePageTitle</span>
+                <span class="method-start">83434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">83512 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
