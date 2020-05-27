@@ -29,7 +29,7 @@ public class ExtentReportsListner implements IReporter {
 	private ExtentReports extent;
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
-		extent = new ExtentReports(outputDirectory + File.separator + "CimbAutomation.html", true);
+		extent = new ExtentReports(outputDirectory + File.separator + "PropineAutomation.html", true);
 
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();

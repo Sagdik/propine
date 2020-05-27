@@ -36,7 +36,7 @@ public class DateValidationTestCase extends BasePropine {
 	 * Home Page Validation Page
 	 */
 	
-	//@Test
+	@Test
 	public void validatePageTitle() {
 		
 		boolean text = homePage.validatePageTitle();
@@ -50,7 +50,7 @@ public class DateValidationTestCase extends BasePropine {
 	/**
 	 * Home Page Day Parser 
 	 */
-	//@Test
+	@Test
 	public void validatePageHeadline() {
 		
 		String headLineText = homePage.pageHeadline();
@@ -66,7 +66,7 @@ public class DateValidationTestCase extends BasePropine {
 	/**
 	 * Validate All Mandatory fields present on page
 	 */
-	//@Test
+	@Test
 	public void validateAllMandatoryFields() {
 		
 		homePage.enterDate("12/12/2020");
