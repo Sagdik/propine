@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test thread-count="5" name="PropineTest">
+  <parameter name="url" value="https://vast-dawn-73245.herokuapp.com/" />
+    <classes>
+      <class name="Suit1.DateValidationTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
