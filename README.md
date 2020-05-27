@@ -1,4 +1,4 @@
-# propine
+# Propine Porject
 HyBrid-Selenium Test Framework
 
 This Frame work with TestNG+MAVEN+Selenium combination so we can do alots of thing in this framework.
